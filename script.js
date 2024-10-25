@@ -6,7 +6,7 @@ let counter = document.getElementById("counter");
 btn.addEventListener("click", function() {
 	alert(count);
 	count++;
-	counter.innerHtml = count;
+	counter.innerText = count;
 
 	
 })
